@@ -25,6 +25,7 @@ void linkedList_push_back(LinkedList* list, int value) {
     if(list->start == NULL) {
         list->start = (LinkedListNode*) malloc(sizeof(LinkedListNode));
         list->start->value = value;
+		list->start->next = NULL;
 
         list->size++;
 
@@ -38,6 +39,8 @@ void linkedList_push_back(LinkedList* list, int value) {
 
     current->next = (LinkedListNode*) malloc(sizeof(LinkedListNode));
     current->next->value = value;
+	current->next->next = NULL;
+
     list->size++;
 }
 
