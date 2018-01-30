@@ -1,0 +1,8 @@
+add_executable(Recursion recursion.c)
+add_executable(NestedLoop nestedLoop.c)
+add_executable(Fibunachi fibunachi.c)
+add_executable(FibunachiLoop fibunachiLoop.c)
+add_executable(Loop loop.c)
+add_executable(StaticVar staticVar.c)
+add_executable(HandlingChars handlingChars.c)
+add_executable(JumpingPointer jumpingPointer.c)

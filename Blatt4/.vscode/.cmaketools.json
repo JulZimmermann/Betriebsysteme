@@ -1,0 +1,205 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+            "name": "Blatt4",
+            "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/JumpingPointer"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "jumpingPointer.c"
+                    ]
+                  }
+                ],
+                "fullName": "JumpingPointer",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "JumpingPointer",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/HandlingChars"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "handlingChars.c"
+                    ]
+                  }
+                ],
+                "fullName": "HandlingChars",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "HandlingChars",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/NestedLoop"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "nestedLoop.c"
+                    ]
+                  }
+                ],
+                "fullName": "NestedLoop",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "NestedLoop",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/StaticVar"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "staticVar.c"
+                    ]
+                  }
+                ],
+                "fullName": "StaticVar",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "StaticVar",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/Recursion"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "recursion.c"
+                    ]
+                  }
+                ],
+                "fullName": "Recursion",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "Recursion",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/FibunachiLoop"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "fibunachiLoop.c"
+                    ]
+                  }
+                ],
+                "fullName": "FibunachiLoop",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "FibunachiLoop",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/Fibunachi"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "fibunachi.c"
+                    ]
+                  }
+                ],
+                "fullName": "Fibunachi",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "Fibunachi",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/julian/FH/BS/Blatt4/build/Loop"
+                ],
+                "buildDirectory": "/home/julian/FH/BS/Blatt4/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g   -std=gnu11",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "loop.c"
+                    ]
+                  }
+                ],
+                "fullName": "Loop",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "C",
+                "name": "Loop",
+                "sourceDirectory": "/home/julian/FH/BS/Blatt4",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.12388671099072934",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
